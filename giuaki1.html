@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ float: left;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        div{
+            float: left;
+            margin: 20px;
+            margin-left: 50px;
+            width: 800px;
+            height: 800px;
+            background-color: rgb(48, 205, 233);
+            border: 2px solid blue;
+        }
+        header{
+            width: 100%;
+            height: 50px;
+            background-color: rgb(48, 205, 233);
+            padding: 10px;
+            border-bottom: 1px dashed white
+            
+        }
+        header ul li{
+            float: left;
+            width: 100px;
+            
+        }
+        h2{
+            float: right;
+            color: white;
+            
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        nav{
+            width: 50%;
+            height: 648px;
+            padding: 15px;
+            background-color: cadetblue;
+        }
+        img{
+            width: 100%;
+            height: 70%;
+            
+        }
+        .one{
+            padding: 25px;
+            font-size: 25px;
+            color: white;
+        }
+        aside{
+            width: 50%;
+            height: 70%;
+            color: white;
+        }
+        h3{
+            padding: 25px;
+        }
+        p{
+            margin-left: 25px;
+        }
+        /* header li{
+            float: left;
+            width: 450px;
+        } */
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h2 ">Blue Word</h2>
+            <ul style="list-style-type: none;">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a</li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <nav>
+           <img src="gk1.PNG" alt="">
+           <span class="one">Happiness on Earth.</span> <br>
+           <span class="two">Inspiring destination within your reach.</span>
+        </nav>
+        <aside>
+            <h3>Your contact information</h3>
+            <p>Start your travel planning right now with on line registration form. Just tell us a litle about yoursell and your group and one of our travel experts will contact you to create the perfect tour package custom built for your group's needs</p>
+            <form action="">
+                <label for="title">Title</label>
+                <select name="title" id="title">
+                    <option value="mr.">Mr.</option>
+                    <option value="mrs.">Mrs.</option>
+                </select> 
+                <br><br>
+                <label for="fname">Full Name*</label>
+                <input type="text" id="fname" name="fname" placeholder="Fist Name">
+            </form>
+        </aside>
+        <footer></footer>
+    </div>
+</body>
+</html>
