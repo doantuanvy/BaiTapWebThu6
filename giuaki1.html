@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{ float: left;
+        *{
+             float: left;
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
         }
         div{
-            float: left;
+            /* float: left; */
             margin: 20px;
             margin-left: 50px;
             width: 800px;
@@ -36,6 +37,7 @@
         h2{
             float: right;
             color: white;
+            text-shadow: 2px 2px 7px blue;
             
         }
         a{
@@ -46,7 +48,7 @@
             width: 50%;
             height: 648px;
             padding: 15px;
-            background-color: cadetblue;
+            background-color: rgb(48, 205, 233);
         }
         img{
             width: 100%;
@@ -66,7 +68,19 @@
         h3{
             padding: 25px;
         }
-        p{
+        p.seven{
+            margin-left: 25px;
+            margin-top: 25px;
+            font-size: 30px;
+            color: white;
+            text-shadow: 2px 1px;
+        }
+        p.eight{
+            width: 100%;
+            text-align: right;
+            color: rgb(62, 116, 138);
+        }
+        p.six{
             margin-left: 25px;
         }
         form label{
@@ -75,23 +89,40 @@
         }
         .three{
             height: 70px;
+            
         }
         .four {
             margin-left: 160px;
             margin-top: 5px;
+            border-style: dotted;
         }
         .five{
             margin-left: 3px;
             margin-top: 5px;
+            border-style: dotted;
+            
         }
+        select,input,textarea{
+            border: 1px solid blue;
+            border-radius: 5px;
+        }
+        
         footer{
             width: 100%;
-            height: 100px ;
-            background-color: blanchedalmond;
-            border-top: 1px dashed white
+            height: 98px ;
+            background-color: rgb(48, 205, 233);
+            border-top: 1px dashed white;
         }
-        footer span{
-            
+        footer p.nice{
+        margin-top: 40px;
+           width: 100%; 
+           text-align: center;
+           color: white;
+        }
+        footer p.ten{
+           width: 100%; 
+           text-align: center;
+           color: white;
         }
         /* header li{
             float: left;
@@ -112,12 +143,14 @@
         </header>
         <nav>
            <img src="gk1.PNG" alt="">
-           <span class="one">Happiness on Earth.</span> <br>
-           <span class="two">Inspiring destination within your reach.</span>
+           <p class="seven">Happiness on Earth.</p>
+           <p class="eight">Inspiring destination within your reach.</p>
+           <!-- <span class="one">Happiness on Earth.</span> <br>
+           <span class="two">Inspiring destination within your reach.</span> -->
         </nav>
         <aside>
             <h3>Your contact information</h3>
-            <p>Start your travel planning right now with on line registration form. Just tell us a litle about yoursell and your group and one of our travel experts will contact you to create the perfect tour package custom built for your group's needs</p>
+            <p class="six">Start your travel planning right now with on line registration form. Just tell us a litle about yoursell and your group and one of our travel experts will contact you to create the perfect tour package custom built for your group's needs</p>
             <form action="">
                 <label for="title">Title</label>
                 <select name="title" id="title">
@@ -135,15 +168,19 @@
                 <label for="country">Country</label>
                 <input type="text" id="country" name="country" placeholder="Country"> <br> <br>
                 <label for="stour">Specifie questions or requets about your tour</label>
-                <input class="three" type="text" id="stour" name="stour" placeholder="Specifie questions or requets about your tour"> <br>
+                <textarea name="stour" id="stour" cols="22" rows="4" placeholder="Specifie questions or requets about your tour"></textarea>
+                <!-- <input class="three" type="text" id="stour" name="stour" placeholder="Specifie questions or requets about your tour">  -->
+                <br>
                 <input class="four" type="submit">
                 <input class="five" type="reset">
             </form>
         </aside>
         <footer>
-            <span>Copyright 1999-2021 by Refsnes Data. All Rights Reserved.
+            <p class="nice">Copyright 1999-2021 by Refsnes Data. All Rights Reserved.</p>
+            <p class="ten">W3Schools is Powered by W3.CSS.</p>
+            <!-- <span>Copyright 1999-2021 by Refsnes Data. All Rights Reserved.
                 </span> <br>
-                <span>W3Schools is Powered by W3.CSS.</span>
+                <span>W3Schools is Powered by W3.CSS.</span> -->
         </footer>
     </div>
 </body>
