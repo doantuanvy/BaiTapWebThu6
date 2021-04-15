@@ -73,7 +73,102 @@
            float: right;
            border: solid 1px blue;
         }
-       
+        a{
+            color:white ;
+            text-decoration: none;
+            padding-left: 10px;
+        }
+        ul{
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        li{
+            margin-right: 10px;
+            background-color: wheat;
+            
+        }
+        .three-1{
+            width: 80px;
+            border: 1px solid;
+            
+        }
+        .three-2{
+            width: 100px;
+            border: 1px solid;
+        }
+        .three-3{
+            width: 100px;
+            border: 1px solid;
+        }
+        .three-4{
+            width: 150px;
+            border: 1px solid;
+        }
+        .three-5{
+            width: 80px;
+            border:1px solid;
+        }
+        nav{
+            padding-left: 10px;
+        }
+        .four{
+            height: 60px;
+            width: 100%;
+            background-color: rgb(197, 20, 20);
+            border-bottom: 1px white dotted;
+            color: white;
+        }
+        h3{
+            margin-top: 30px;
+        }
+        
+        .five{
+    
+            height: 400px;
+            width: 60%;
+            background-color: turquoise;
+        }
+        .five-1{
+            width: 330px;
+            padding-top: 10px;
+            color: red;
+        }
+        .five-2{
+            position: relative;
+            width: 100%;
+            height: 318px;
+            
+        }
+        .five-2-3{
+            position: absolute;
+            top: 0;
+            right: 150px;
+        }
+        .five-2-4{
+            position: absolute;
+            top: 18px;
+            right: 20px;
+        }
+        .five-2-4{
+            position: absolute;
+            top: 18px;
+            right: 20px;
+        }
+        .five-2-7{
+            position: absolute;
+            top: 54px;
+            left: 190px;
+        }
+        .five-2-8{
+            position: absolute;
+            top: 72px;
+            right: 20px;
+        }
+        .six{
+            
+            height: 400px;
+            width: 40%;
+        }
     </style>
 </head>
 <body>
@@ -90,10 +185,42 @@
                     <input class="two-3" type="search" placeholder="Seach the site...">
                 </form>
             </div>
-            <div class="three"></div>
+            <div class="three">
+                <ul style="list-style-type: none;">
+                    <li class="three-1"><a href="#">Home</a></li>
+                    <li class="three-2"><a href="#">Promotion</a></li>
+                    <li class="three-3"><a href="#">Gift Baskets</a></li>
+                    <li class="three-4"><a href="#">Flower Services</a></li>
+                    <li class="three-5"><a href="#">About</a></li>
+                </ul>
+            </div>
             
         </header>
-        <nav></nav>
+        <nav>
+            <div class="four">
+                <h3>Why Not Contact Us Today!</h3>
+            </div>
+            <div class="five">
+                <p class="five-1"><i>For FlowerBox 360 shoppers, that means not only can you send your friends and loved ones the highest quality flowers found on online, but that you can do so at a great value.</i> </p>
+                <form class="five-2" action="">
+                    <label class="five-2-1" for="name">Name:</label> 
+                    <br>
+                    <input class="five-2-2" type="text" name="name" id="name"> 
+                    <br> <br>
+                    <label class="five-2-3" for="email">Email:</label> 
+                    <input class="five-2-4" type="email" name="email" id="email"> 
+                    <label class="five-2-5" for="phone">Telephone:</label> <br>
+                    <input class="five-2-6" type="number" name="phone" id="phone"> <br> <br>
+                    <label class="five-2-7" for="subject">Subject:</label> 
+                    <input class="five-2-8" type="text" name="subject" id="subject"> 
+                    <label class="five-2-9" for="mess">Message:</label> <br>
+                    <textarea class="five-2-10" name="mess" id="mess" cols="30" rows="10"></textarea> 
+                    <input class="five-2.11" type="submit">
+                    <input class="five-2.12" type="reset">
+                </form>
+            </div>
+            <div class="six"></div>
+        </nav>
         <aside></aside>
         <footer></footer>
     </div>
